@@ -216,7 +216,7 @@ switch (givenDayNum) {
 var units:number= 556;
 var priceOfunit: number = 40 ;
  var calculated:number= (units * priceOfunit) ;
-if(units >= 0 && units <= 100 ){
+if(units <= 0 && units <= 100 ){
   // formula to add tax
   var billCalculation: number = calculated + (10 / 100) * calculated ;
   console.log(`Total units Consumed: ${units} and total bill with 10% tax:${billCalculation}`);
