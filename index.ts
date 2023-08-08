@@ -30,21 +30,22 @@ else{
 //  - Write a program that calculates the percentage.
    // calculate percentage of student marks:
 /*
-var totalMarks: number = 1100 ;
+var totalMarks: number = 1100 ; 
 var obtainedMarks: number = 789 ;
   // formula is : (obtainedMarks / totalMarks) * 100 ;
 
-var result: number = (789 / 1100) * 100 ;
-console.log(result);
-if( result >80){
+var result : number = (789 / 1100) *100 ;
+console.log(`${Math.floor (result) }`);
+
+if( result >= 80 ){
   console.log("Grade: A+");
   
 }
-else if(result > 70 ){
+else if(result < 80 && result >= 70){
   console.log("Grade: A");
   
 }
-else if(result <70 && result>60){
+else if(result < 70 && result >= 60){
   console.log("Grade: B");
   
 }
