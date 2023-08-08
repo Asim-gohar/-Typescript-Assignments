@@ -56,39 +56,26 @@ else{
 
 /*
 //- Write a program that calculates the discount for a product based on its price. If the price is above $100, apply a 10% discount; otherwise, apply a 5% discount.
+ar productPrice:number= -345 ; // price in Dollar  , And it will not work on -ve price .
 
-var productPrice:string= "$123" ;
+var discount :number= productPrice * (10 / 100);
 
 
-if(productPrice > "$100" ){
+if(productPrice >= 100 )// in dollar 
+{
+  var discountedPrice : number = productPrice - discount
   console.log("if:   Discount offer: 10%");
   
 }
-else if(productPrice < "$100"){
+else if(productPrice > 0 && productPrice <= 99)// in dollar 
+{
   console.log("Discount offer: 5%");
   
 }
 else{
-  console.log("Undefined");
+  console.log("Error");
   
-}
- 
-switch (productPrice) {
-  case "$180 <= $150 ":
-    console.log(" Switch:   Offer Discount : 10%");
-    
-    break;
-  case "$120 >= $149":
-    console.log("Offer Discount : 7%");
-    break;
-  case "$80":
-    console.log("Offer Discount : 5%");
-      
-  default:
-    console.log("Offer Discount : 5%");
-    
-    break;
-}
+} 
 */
 /*
 //- Create a program that determines the category of a user-provided age. If the age is between 0 and 12, print "Child." If it's between 13 and 19, print "Teenager." Otherwise, print "Adult."
