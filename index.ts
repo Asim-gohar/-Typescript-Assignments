@@ -114,11 +114,11 @@ if(temperature <= 5 ){
   console.log("Its Extreme cold, you should wear Too hot clothes");
   
 }
-else if(temperature <= 15 ){
+else if(temperature > 5 && temperature <= 15 ){
   console.log("its cold, You should wear hot clothes ");
   
 }
-else if(temperature <= 25){
+else if(temperature > 15 && temperature <= 25){
   console.log("its slightly cold, you should wear slightly hot clothes");
   
 }
