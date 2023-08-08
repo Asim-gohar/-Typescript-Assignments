@@ -53,23 +53,7 @@ else{
   
 }
 */
-/*
-//- Write a program that converts given number of days in to weeks and days such as 17 days = 2 weeks and 3 days.
 
-var days :number = 180 ;
-var daysOfWeek : number = 7 ;
-   // -formula : days / days of week ;
-var result: number = 180 / 7 ;
-
-if(result = 25.714){
-  console.log("180 days = 25 Weeks and 5 days");
-  
-}
-else{
-  console.log("Wrong");
-  
-}
-*/
 /*
 //- Write a program that calculates the discount for a product based on its price. If the price is above $100, apply a 10% discount; otherwise, apply a 5% discount.
 
