@@ -113,7 +113,7 @@ function forFactorial(integer) {
     }
     return factorialNum;
 }
-let integerNum = 5;
+let integerNum = 4;
 //let factorialNum : number = 1 ;
 let result = forFactorial(integerNum);
 console.log(result);

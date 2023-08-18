@@ -118,7 +118,7 @@ function forFactorial( integer:number):number{
   return factorialNum ;
 }
  
-let integerNum : number = 5 ;
+let integerNum : number = 4 ;
 //let factorialNum : number = 1 ;
 let result : number = forFactorial(integerNum)
 console.log(result)
