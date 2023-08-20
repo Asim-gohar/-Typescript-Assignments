@@ -165,3 +165,43 @@ while(index < calsiusToCalculate.length){
 console.log(calsiusToCalculate);
 console.log(calculatedFarenhite);
 */
+            //problem 09
+// Write a Program That Prints Sum of Even Number from 1 to 100 and add the sum digits in a list , and also sum odds number .
+let sum : number = 0;
+let listOfNumbers : number[] = [] ;
+for(let index :number = 0;index <= 100; index += 1){
+  //console.log(index); Don't do this
+  if(index % 2 == 0){
+      listOfNumbers.push(index)
+      sum += index
+      
+  }
+}
+//console.log(sum,listOfNumbers);
+console.log(`Sum of Even numbers`,sum,`Numbers of list`,listOfNumbers);
+
+
+
+/*
+// Solved using while loop its solved my own
+ let Numbers : number = 0 ;
+ let sum : number = 0 ;
+ let evenNumbers : number[] = [];
+ while(Numbers <= 100){
+  if(Numbers % 2 !=0){ 
+   //let sumForEven:number = sum + Numbers ;
+   evenNumbers.push(Numbers) ;
+   
+   //console.log("Even numbers from 1-100",evenNumbers);
+   //Numbers += 2
+   //sum += sumForEven
+   //console.log(Numbers);
+   //sNumbers ++
+   sum += Numbers
+
+  }
+  Numbers ++
+ }
+console.log(`Sum of Even numbers`,sum,`Numbers of list`,evenNumbers);
+*/
+                // Assignment Finished
