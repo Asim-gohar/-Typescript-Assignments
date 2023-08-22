@@ -1,4 +1,6 @@
                      //Assignment03 Start
+                     
+                     //Problem 01
 /*
 //- Develop a program that calculates and prints the sum of the first n even numbers using a for loop.
        // First 20 Even Numbers
@@ -14,6 +16,7 @@ for(let index : number = 2 ; index <= 20 ; index += 2){
 console.log("Sum of all Even Numbers", sum);
 console.log("All Even Numbers" , allEvens);
 */
+                        //Problem 02
 /*
 //- Implement a program that uses a for loop to iterate through an array of numbers and print only the even numbers.
 let arrayOfNum : number[] = [11,12,13,14,15,16,17,18,19,20] ;
@@ -26,6 +29,7 @@ for(let index = 0 ; index <= arrayOfNum.length; index++){
 }
 console.log("Seprate Even Numbers",sepratedEvenNum);
 */
+                            //Problem 03
 /*
 //- Implement a program that uses a loop to iterate through an array of numbers and remove all the even numbers from them and just leave the odd ones
 let arrayOfNum : number[] = [21,22,23,24,25,26,27,28,29,30] ;
@@ -39,6 +43,7 @@ for(let index = 0 ; index <= arrayOfNum.length; index++){
 }
 console.log("Seprated odd numbers:",sepratedOddNum);
 */
+                         //Problem 04
 /*
 //- Write a program that defines a function to calculate the area of a circle. The function should take the radius as input and return the calculated area.
 function toCalculateAreaOfCircle(radius : number){
@@ -52,6 +57,7 @@ console.log("Radius :",radiusNum);
 
 console.log("Calculated Area of circle:",toCalculateAreaOfCircle(radiusNum));
 */
+                             //Problem 05
 /*
 //-Develop a program that reads a list of grades and uses the splice method to remove failing grades (below 50) from the array.
 let liOfGrades : number[] = [789,543,563,836,233,445,610] ;
@@ -62,7 +68,8 @@ for(let index = liOfGrades.length -1 ; index >= 0 ; index--){
 }
 console.log("Passed candidates:",liOfGrades);
 */
-
+                              //Problem 06
+/*                              
 //- Write a program that uses a function to find the largest element in an array of numbers.
 let arrayElement : number[] = [12,13,14,16] ;
 function toFindLargestElement(element : any){
@@ -78,9 +85,6 @@ function toFindLargestElement(element : any){
 let largestElement= toFindLargestElement(arrayElement)
 
 console.log(largestElement);
-
-
-
-
-
-
+*/
+   
+                       // <= Assignment Finished =>
