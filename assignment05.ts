@@ -1132,7 +1132,8 @@ sandwich_type(2 , "Full" , "Spicy BBQ Pulled Pork")
 sandwich_type(1 , "Low" , "Egg Salad")
 
 console.log(orders);
-*/         
+*/  
+/*       
                                    //Problem 45
 //Cars: Write a function that stores information about a car in a Object. The function should always receive a manufacturer and a model name. 
 //It should then accept an arbitrary number of keyword arguments. Call the function with the required information and two other name-value pairs, such as a color or an optional feature.
@@ -1153,5 +1154,5 @@ function car_obj(manufacturer : string , model : number , color? : string , extr
 console.log(car_obj("Honda" , 2021 ));
 console.log(car_obj("Toyota" , 2023 , "White"));
 console.log(car_obj("Kia" , 2018 , "Blue" , "Sun roof"));
-
+*/
                                 <= //Assignment Finished =>
